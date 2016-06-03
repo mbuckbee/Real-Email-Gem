@@ -6,7 +6,7 @@ module RealEmail
     @base_uri = 'https://realemail.expeditedaddons.com'
 
     # Your API Key
-    @api_key = 'TODO: Replace'
+    @api_key = ENV['REALEMAIL_API_KEY']
 
     # create the getters and setters
     class << self
