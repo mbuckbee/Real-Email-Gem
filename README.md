@@ -15,6 +15,14 @@
 
 - Ruby v2.x or greater
 
+
+## Installation
+
+```ruby
+# In your Gemfile
+gem 'real_email', git: 'https://github.com/mbuckbee/Real-Email-Gem.git'
+```    
+
 ## Usage
 
 ### Input Parameter Descriptions
@@ -71,19 +79,6 @@ $ > result.typos_fixed
 => nil
 ```
 
-
-
-
-
-
-
-
-## Installation
-
-```ruby
-# In your Gemfile
-gem 'realemail', git: 'https://github.com/mbuckbee/Real-Email-Gem.git'
-```    
 
 
 ## Result Attribute Descriptions
